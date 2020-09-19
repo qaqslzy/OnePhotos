@@ -1,0 +1,140 @@
+.photo {
+  width: 100vw;
+  height: 75vh;
+  /* Sketch doesnt export pattern fills at this point */
+  //   border: 1px solid #C9C9C9;
+  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.5);
+  //   box-shadow: 3px 3px 5px #000000;
+//   filter: grayscale(100%);
+
+//   filter: gray;
+}
+
+
+
+.likeNum {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.comments {
+  margin-top: 15px;
+  font-size: 30px;
+  color: #4E4E4E;
+}
+
+.child{
+  margin-top: 7px;
+  font-size: 30px;
+  color: #4E4E4E;
+  margin-left: 15px;
+  border-width: 0 0 0 6px;
+  border-color: #868686;
+  border-style: solid;
+  padding-left: 12px;
+}
+
+.name {
+  color: #000000;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.time {
+  font-size: 25px;
+  color: #8A8A8A;
+}
+
+.postComments {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  // justify-content:center;
+  background: #F9FAFA;
+  border-radius: 15px;
+  width: 85vw;
+  height: 70px;
+  margin-left: 15px;
+}
+
+.owner {
+  background: #FCFCFC;
+  box-shadow: 2px 2px 8px 0 rgba(116, 116, 116, 0.50);
+  border-radius: 14.5px;
+
+  height: 8vh;
+  width: 90vw;
+  margin-left: 5vw;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+  display: flex;
+  flex-direction: row;
+
+  display: flex;
+  align-items: center;
+
+}
+
+.avatar {
+  height: 6vh;
+  width: 6vh;
+  border-radius: 1000px;
+  margin-left: 5%;
+  margin-right: 36px;
+}
+
+.ownerName {
+  font-size: 30px;
+  color: #4E4E4E;
+  letter-spacing: 0.31px;
+}
+
+.watch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 9vw;
+  width: 130px;
+  height: 3vh;
+  font-size: 30px;
+  color: #1890FF;
+  border: 1px solid #1890FF;
+  border-radius: 120px;
+}
+
+.love {
+  width: 7vw;
+  height: 7vw;
+}
+
+.share {
+  width: 6vw;
+  height: 6vw;
+}
+
+
+.send {
+  width: 6vw;
+  height: 6vw;
+}
+
+.back {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1000px;
+  position: absolute;
+  left: 5vw;
+  top: 5vh;
+  width: 9vw;
+  height: 9vw;
+  background: rgba(117, 117, 117, 0.50);
+}
+
+.delete {
+  font-size: 22px;
+  color: #1890FF;
+  letter-spacing: 0.21px;
+}
